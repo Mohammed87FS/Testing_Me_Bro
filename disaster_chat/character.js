@@ -36,6 +36,16 @@ class Character {
         console.log(this.name + " defends!");     
     }
 
+    callForHelp(helperCharacter){
+     if(helperCharacter &&  typeof helperCharacter.defend === 'function'){
+       
+        console.log(`${this.name} calls for help!`);
+
+        helperCharacter.defend();
+     }
+           
+    }
+
 }
 
 const Zaid = new Character("Zaid", "a good guy", "i hate stuff");
