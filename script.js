@@ -1,5 +1,5 @@
-const Zaid = "Zaid";
-const message = "Hello, " + Zaid + "! Welcome to the JavaScript world! I hate teamers";
+const Zaidd = "Zaid";
+const message = "Hello, " + Zaidd + "! Welcome to the JavaScript world! I hate teamers";
 console.log(message);
 
 
